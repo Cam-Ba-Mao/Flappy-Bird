@@ -90,7 +90,7 @@ function run(){
     requestAnimationFrame(run);
 }
 //thêm function cho nó bay lên khi nhấn
-document.addEventListener("keydown",function(){
+document.addEventListener("click",function(){
     bird.y-=60;   
 })
 // ok khá ổn 
